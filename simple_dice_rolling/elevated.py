@@ -57,6 +57,6 @@ while loading_dice:
 
 
 for key, x in dice_dic.items():
-    (f'NOW ROLLING {x} SIDED DICE')
+    print(f'NOW ROLLING {x} SIDED DICE'))
     for die in range(x):
         dice_roll(int(key))
